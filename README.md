@@ -33,7 +33,7 @@ This adapter provides a dynamic and animated visualization of energy flows for a
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 0.8.2 (2026-03-25)
 - FIX: Adapter was appearing on welcome screen overview (should only be used for pro) (#429)
 - FIX: Menubar has loading animation, when opening the workspace the first time while tour is displayed
 - FIX: When using **Animation dependency** 'Dots' or 'Duration' the animation was to heavy - regulated to smoother blend
