@@ -296,6 +296,7 @@
     "lbl_settings_line_animation": "启动期间以及显示和隐藏时进行线条动画",
     "lbl_settings_liveView": "实时显示",
     "lbl_settings_low_performance": "动画的省电模式",
+    "lbl_settings_show_contextmenu": "启用实时取景的上下文菜单",
     "lbl_settings_show_coordinates": "选择和拖动时显示元素坐标",
     "lbl_settings_show_icon": "在实时视图中显示配置图标",
     "lbl_shadow": "阴影",

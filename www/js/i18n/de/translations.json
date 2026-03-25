@@ -296,6 +296,7 @@
     "lbl_settings_line_animation": "Linienanimation beim Start und beim Ein- und Ausblenden",
     "lbl_settings_liveView": "Live-Ansicht",
     "lbl_settings_low_performance": "Energiesparmodus für Animationen",
+    "lbl_settings_show_contextmenu": "Kontextmenü in der Live-Ansicht aktivieren",
     "lbl_settings_show_coordinates": "Elementkoordinaten beim Auswählen und Ziehen anzeigen",
     "lbl_settings_show_icon": "Konfigurationssymbol in der Live-Ansicht anzeigen",
     "lbl_shadow": "Schatten",

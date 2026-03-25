@@ -296,6 +296,7 @@
     "lbl_settings_line_animation": "Animation de ligne au démarrage et lors de leur affichage et de leur masquage",
     "lbl_settings_liveView": "Vue en direct",
     "lbl_settings_low_performance": "Mode d'économie d'énergie pour les animations",
+    "lbl_settings_show_contextmenu": "Activer le menu contextuel en mode Live View",
     "lbl_settings_show_coordinates": "Afficher les coordonnées des éléments lors de la sélection et du déplacement",
     "lbl_settings_show_icon": "Afficher l'icône de configuration sur la vue en direct",
     "lbl_shadow": "Ombre",

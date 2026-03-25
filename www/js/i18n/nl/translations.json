@@ -296,6 +296,7 @@
     "lbl_settings_line_animation": "Lijnanimatie tijdens het opstarten en tijdens het weergeven en verbergen ervan",
     "lbl_settings_liveView": "Live-weergave",
     "lbl_settings_low_performance": "Energiebesparende modus voor animaties",
+    "lbl_settings_show_contextmenu": "Schakel het contextmenu in voor LiveView.",
     "lbl_settings_show_coordinates": "Elementcoördinaten weergeven bij het selecteren en slepen",
     "lbl_settings_show_icon": "Configuratiepictogram weergeven in liveweergave",
     "lbl_shadow": "Schaduw",

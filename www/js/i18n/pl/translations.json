@@ -296,6 +296,7 @@
     "lbl_settings_line_animation": "Animacja linii podczas uruchamiania oraz ich pokazywania i ukrywania",
     "lbl_settings_liveView": "Podgląd na żywo",
     "lbl_settings_low_performance": "Tryb oszczędzania energii dla animacji",
+    "lbl_settings_show_contextmenu": "Włącz menu kontekstowe w trybie Live-View",
     "lbl_settings_show_coordinates": "Pokaż współrzędne elementu podczas wybierania i przeciągania",
     "lbl_settings_show_icon": "Pokaż ikonę konfiguracji w widoku na żywo",
     "lbl_shadow": "Cień",

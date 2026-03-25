@@ -296,6 +296,7 @@
     "lbl_settings_line_animation": "Анимация линий при запуске и при их отображении и скрытии",
     "lbl_settings_liveView": "Live-View",
     "lbl_settings_low_performance": "Режим энергосбережения для анимаций",
+    "lbl_settings_show_contextmenu": "Включить контекстное меню в режиме Live View",
     "lbl_settings_show_coordinates": "Показывать координаты элемента при выборе и перетаскивании",
     "lbl_settings_show_icon": "Показывать значок конфигурации в режиме реального времени",
     "lbl_shadow": "Тень",
