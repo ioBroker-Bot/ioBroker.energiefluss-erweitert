@@ -39,7 +39,7 @@ This adapter provides a dynamic and animated visualization of energy flows for a
 - FIX: When using **Animation dependency** 'Dots' or 'Duration' the animation was to heavy - regulated to smoother blend
 - FIX: **Animation dependency** 'Dots' once power is on the line, minimal one dot is displayed. The threshold can be used, to manage the appearance of the first dot.
 - FIX: Some layout and background stuff
-- FIX: Fading out Context-menu, if touch-move is detected
+- FIX: Fading out Context-menu on live view, if touch-move is detected
 - Added: Improved 'low Performance'-mode to not use static times instead of calculating possible animation Frames
 - Added: Context-Menu on live view is now disabled by default - to enable it again, change it in settings area
 
