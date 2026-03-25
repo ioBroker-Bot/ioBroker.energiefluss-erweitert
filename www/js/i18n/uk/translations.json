@@ -218,6 +218,7 @@
     "lbl_ds_factor": "Фактор джерела",
     "lbl_duration": "Тривалість",
     "lbl_duration_animation": "Тривалість анімації (у мс)",
+    "lbl_duration_animation_low": "Тривалість анімації для режиму енергозбереження (у мс)",
     "lbl_enable_clock": "Використовувати як годинник/дату",
     "lbl_errorLog_for": "для",
     "lbl_errorLog_function": "Викликана функція",

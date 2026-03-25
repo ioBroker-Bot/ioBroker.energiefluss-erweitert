@@ -218,6 +218,7 @@
     "lbl_ds_factor": "Współczynnik źródła",
     "lbl_duration": "Czas trwania",
     "lbl_duration_animation": "Czas trwania animacji (w ms)",
+    "lbl_duration_animation_low": "Czas trwania animacji w trybie oszczędzania energii (w ms)",
     "lbl_enable_clock": "Użyj jako zegara/daty",
     "lbl_errorLog_for": "Dla",
     "lbl_errorLog_function": "Wywołana funkcja",

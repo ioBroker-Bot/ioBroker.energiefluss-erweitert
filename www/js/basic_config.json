@@ -64,6 +64,7 @@
         "stroke_dasharray": "10 17 10 17 10 72",
         "stroke_width": 6,
         "animation_duration": 2000,
+        "animation_duration_low": 1200,
         "stroke_linecap": "round",
         "animation_timing_function": "linear"
     },

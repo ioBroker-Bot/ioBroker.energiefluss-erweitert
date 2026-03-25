@@ -218,6 +218,7 @@
     "lbl_ds_factor": "Factor van de bron",
     "lbl_duration": "Duur",
     "lbl_duration_animation": "Duur van de animatie (in ms)",
+    "lbl_duration_animation_low": "Duur van de animatie voor de energiebesparende modus (in ms)",
     "lbl_enable_clock": "Gebruik als klok/datum",
     "lbl_errorLog_for": "Voor",
     "lbl_errorLog_function": "Functie genoemd",
