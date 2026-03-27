@@ -34,7 +34,10 @@ This adapter provides a dynamic and animated visualization of energy flows for a
 	### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
-- Added: Animation duration for 'low Performance'-mode editable. Defaults to 1200ms.
+- Added: Animation duration for 'Power-saving'-mode editable. Defaults to 1200ms.
+- Added: Rectangels can now be rotated and have 4 more connection points in the corner, which appear when the element is rotated >0°
+- Added: Faster and more accurate line-rendering
+- FIX: Some small fixes and improvements
 
 ### 0.8.2 (2026-03-25)
 - FIX: Adapter was appearing on welcome screen overview (should only be used for pro) (#429)
@@ -42,7 +45,7 @@ This adapter provides a dynamic and animated visualization of energy flows for a
 - FIX: When using **Animation dependency** 'Dots' or 'Duration' the animation was to heavy - regulated to smoother blend
 - FIX: **Animation dependency** 'Dots' once power is on the line, minimal one dot is displayed. The threshold can be used, to manage the appearance of the first dot.
 - FIX: Fading out Context-menu on live view, if touch-move is detected
-- Added: Improved 'low Performance'-mode to not use static times instead of calculating possible animation Frames
+- Added: Improved 'Power-saving'-mode to not use static times instead of calculating possible animation Frames
 - Added: Context-Menu on live view is now disabled by default - to enable it again, change it in settings area
 
 ### 0.8.1 (2025-10-21)
