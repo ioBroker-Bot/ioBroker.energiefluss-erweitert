@@ -218,6 +218,7 @@
     "lbl_ds_factor": "源因素",
     "lbl_duration": "期间",
     "lbl_duration_animation": "动画持续时间（以毫秒为单位）",
+    "lbl_duration_animation_frames": "每秒帧数（默认值：30）",
     "lbl_duration_animation_low": "省电模式下动画持续时间（毫秒）",
     "lbl_enable_clock": "用作时钟/日期",
     "lbl_errorLog_for": "为了",

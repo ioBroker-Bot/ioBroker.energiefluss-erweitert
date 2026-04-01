@@ -218,6 +218,7 @@
     "lbl_ds_factor": "Фактор источника",
     "lbl_duration": "Продолжительность",
     "lbl_duration_animation": "Продолжительность анимации (в мс)",
+    "lbl_duration_animation_frames": "Кадры в секунду (по умолчанию: 30)",
     "lbl_duration_animation_low": "Длительность анимации в режиме энергосбережения (в мс)",
     "lbl_enable_clock": "Использовать как часы/дату",
     "lbl_errorLog_for": "Для",

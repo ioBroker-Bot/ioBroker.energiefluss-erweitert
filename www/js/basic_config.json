@@ -66,7 +66,11 @@
         "animation_duration": 2000,
         "animation_duration_low": 1200,
         "stroke_linecap": "round",
-        "animation_timing_function": "linear"
+        "animation_timing_function": "linear",
+        "lowPerformance": {
+            "frames": 30,
+            "duration": 1200
+        }
     },
     "animation_configuration": {
         "dots": 3,

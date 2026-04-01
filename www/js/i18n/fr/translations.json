@@ -218,6 +218,7 @@
     "lbl_ds_factor": "Facteur de la source",
     "lbl_duration": "Durée",
     "lbl_duration_animation": "Durée de l'animation (en ms)",
+    "lbl_duration_animation_frames": "Images par seconde (par défaut : 30)",
     "lbl_duration_animation_low": "Durée de l'animation en mode économie d'énergie (en ms)",
     "lbl_enable_clock": "Utiliser comme horloge/date",
     "lbl_errorLog_for": "Pour",

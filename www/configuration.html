@@ -14,19 +14,19 @@
     <link class=favicon rel=icon type=image/ico href="img/icons/favicon.ico">
     <link rel="stylesheet" href="style/jquery-ui.css">
     <link rel="stylesheet" href="style/multiselect.css">
-    <link rel="stylesheet" href="style/style.css?v=0.8.2">
+    <link rel="stylesheet" href="style/style.css?v=0.8.2.1">
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="js/jquery-3.6.4.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/multiselect.min.js"></script>
     <script src="js/translate.min.js"></script>
-    <script src="js/words.js?v=0.8.2"></script>
+    <script src="js/words.js?v=0.8.2.1"></script>
     <script src="js/jscolor.min.js"></script>
     <script src="js/ace/ace.js"></script>
     <script src="js/ace/ext-language_tools.js"></script>
     <script src="js/ace/ext-searchbox.js"></script>
-    <script src="js/functions.min.js?v=0.8.2"></script>
+    <script src="js/functions.min.js?v=0.8.2.1"></script>
 
     <style id="style_animation"></style>
     <style id="style_user"></style>
@@ -2386,99 +2386,122 @@
                                     data-height="24"></span>
                                 <span class="translate" data-lang="lbl_animation">Animation</span>
                             </legend>
-                            <div class="form_div textbox">
-                                <input type="number" class="input_number line_preview" id="line.stroke_width"
-                                    placeholder="" spellcheck="false" autocomplete="off" min="2" max="18">
-                                <label for="line.stroke_width" class="form_label translate"
-                                    data-lang="lbl_line_size">Line-Size</label>
-                            </div>
-                            <div class="form_div textbox">
-                                <input type="number" class="input_number line_preview" id="animation_configuration.dots"
-                                    placeholder="" spellcheck="false" autocomplete="off" min="1" max="30">
-                                <label for="animation_configuration.dots" class="form_label translate"
-                                    data-lang="lbl_dots_amount">Amount of dots</label>
-                            </div>
-                            <div class="form_div textbox">
-                                <input type="number" class="input_number line_preview"
-                                    id="animation_configuration.distance" placeholder="" spellcheck="false"
-                                    autocomplete="off" min="1" max="100">
-                                <label for="animation_configuration.distance" class="form_label translate"
-                                    data-lang="lbl_distance">Distance</label>
-                            </div>
-                            <div class="form_div textbox">
-                                <input type="number" class="input_number line_preview" id="animation_configuration.gap"
-                                    placeholder="" spellcheck="false" autocomplete="off" min="1" max="1000">
-                                <label for="animation_configuration.gap" class="form_label translate"
-                                    data-lang="lbl_distance_gap">Distance between the dot blocks</label>
-                            </div>
-                            <div class="form_div textbox">
-                                <input type="number" class="input_number line_preview"
-                                    id="animation_configuration.length" placeholder="" spellcheck="false"
-                                    autocomplete="off" min="1">
-                                <label for="animation_configuration.length" class="form_label translate"
-                                    data-lang="lbl_length">Length</label>
-                            </div>
-                            <div class="form_div textbox">
-                                <input type="number" class="input_number line_preview" id="animation.stroke_width"
-                                    placeholder="" spellcheck="false" autocomplete="off" min="1">
-                                <label for="animation.stroke_width" class="form_label translate"
-                                    data-lang="lbl_width_dot">Width</label>
-                            </div>
-                            <div class="form_div textbox">
-                                <input type="number" class="input_number line_preview" id="animation.animation_duration"
-                                    placeholder="" spellcheck="false" autocomplete="off" min="1">
-                                <label for="animation.animation_duration" class="form_label translate"
-                                    data-lang="lbl_duration_animation">Duration of the animation (in ms)</label>
-                            </div>
-                            <div class="form_div textbox">
-                                <input type="number" class="input_number line_preview"
-                                    id="animation.animation_duration_low" placeholder="" spellcheck="false"
-                                    autocomplete="off" min="1">
-                                <label for="animation.animation_duration_low" class="form_label translate"
-                                    data-lang="lbl_duration_animation_low">Duration of the animation for low Performance
-                                    (in ms)</label>
-                            </div>
-                            <div class="form_div select">
-                                <label for="animation.animation_timing_function" class="form_label translate"
-                                    data-lang="lbl_animation_type">Animation Type</label>
-                                <div class="select-option">
-                                    <select id="animation.animation_timing_function" class="input_select line_preview">
-                                        <option value="ease" class="translate" data-lang="opt_animation_type_0">
-                                            fast till middle of the animation, slowing at the end
-                                        </option>
-                                        <option value="ease-in" class="translate" data-lang="opt_animation_type_1">
-                                            starts slowly, increasing until complete
-                                        </option>
-                                        <option value="ease-out" class="translate" data-lang="opt_animation_type_2">
-                                            starts quickly, slows down until end
-                                        </option>
-                                        <option value="ease-in-out" class="translate" data-lang="opt_animation_type_3">
-                                            slowly transitioning, speeding up, and then slowing down
-                                            again
-                                        </option>
-                                        <option value="linear" class="translate" data-lang="opt_animation_type_4">
-                                            even speed
-                                        </option>
-                                    </select>
+                            <fieldset>
+                                <legend><span class="translate" data-lang="legend_basic_settings">Power-saving
+                                        mode for animations</span></legend>
+                                <div class="form_div textbox">
+                                    <input type="number" class="input_number line_preview" id="line.stroke_width"
+                                        placeholder="" spellcheck="false" autocomplete="off" min="2" max="18">
+                                    <label for="line.stroke_width" class="form_label translate"
+                                        data-lang="lbl_line_size">Line-Size</label>
                                 </div>
-                            </div>
-                            <div class="form_div select">
-                                <label for="animation.stroke_linecap" class="form_label translate"
-                                    data-lang="lbl_animation_end">Animation Ends</label>
-                                <div class="select-option">
-                                    <select id="animation.stroke_linecap" class="input_select line_preview">
-                                        <option value="butt" class="translate" data-lang="opt_animation_linecap_0">
-                                            rectangular ends trimmed at the endpoints
-                                        </option>
-                                        <option value="round" class="translate" data-lang="opt_animation_linecap_1">
-                                            rounded ends (beyond the endpoints)
-                                        </option>
-                                        <option value="square" class="translate" data-lang="opt_animation_linecap_2">
-                                            square ends (beyond the endpoints)
-                                        </option>
-                                    </select>
+                                <div class="form_div textbox">
+                                    <input type="number" class="input_number line_preview"
+                                        id="animation_configuration.dots" placeholder="" spellcheck="false"
+                                        autocomplete="off" min="1" max="30">
+                                    <label for="animation_configuration.dots" class="form_label translate"
+                                        data-lang="lbl_dots_amount">Amount of dots</label>
                                 </div>
-                            </div>
+                                <div class="form_div textbox">
+                                    <input type="number" class="input_number line_preview"
+                                        id="animation_configuration.distance" placeholder="" spellcheck="false"
+                                        autocomplete="off" min="1" max="100">
+                                    <label for="animation_configuration.distance" class="form_label translate"
+                                        data-lang="lbl_distance">Distance</label>
+                                </div>
+                                <div class="form_div textbox">
+                                    <input type="number" class="input_number line_preview"
+                                        id="animation_configuration.gap" placeholder="" spellcheck="false"
+                                        autocomplete="off" min="1" max="1000">
+                                    <label for="animation_configuration.gap" class="form_label translate"
+                                        data-lang="lbl_distance_gap">Distance between the dot blocks</label>
+                                </div>
+                                <div class="form_div textbox">
+                                    <input type="number" class="input_number line_preview"
+                                        id="animation_configuration.length" placeholder="" spellcheck="false"
+                                        autocomplete="off" min="1">
+                                    <label for="animation_configuration.length" class="form_label translate"
+                                        data-lang="lbl_length">Length</label>
+                                </div>
+                                <div class="form_div textbox">
+                                    <input type="number" class="input_number line_preview" id="animation.stroke_width"
+                                        placeholder="" spellcheck="false" autocomplete="off" min="1">
+                                    <label for="animation.stroke_width" class="form_label translate"
+                                        data-lang="lbl_width_dot">Width</label>
+                                </div>
+                                <div class="form_div textbox">
+                                    <input type="number" class="input_number line_preview"
+                                        id="animation.animation_duration" placeholder="" spellcheck="false"
+                                        autocomplete="off" min="1">
+                                    <label for="animation.animation_duration" class="form_label translate"
+                                        data-lang="lbl_duration_animation">Duration of the animation (in ms)</label>
+                                </div>
+                                <div class="form_div select">
+                                    <label for="animation.animation_timing_function" class="form_label translate"
+                                        data-lang="lbl_animation_type">Animation Type</label>
+                                    <div class="select-option">
+                                        <select id="animation.animation_timing_function"
+                                            class="input_select line_preview">
+                                            <option value="ease" class="translate" data-lang="opt_animation_type_0">
+                                                fast till middle of the animation, slowing at the end
+                                            </option>
+                                            <option value="ease-in" class="translate" data-lang="opt_animation_type_1">
+                                                starts slowly, increasing until complete
+                                            </option>
+                                            <option value="ease-out" class="translate" data-lang="opt_animation_type_2">
+                                                starts quickly, slows down until end
+                                            </option>
+                                            <option value="ease-in-out" class="translate"
+                                                data-lang="opt_animation_type_3">
+                                                slowly transitioning, speeding up, and then slowing down
+                                                again
+                                            </option>
+                                            <option value="linear" class="translate" data-lang="opt_animation_type_4">
+                                                even speed
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form_div select">
+                                    <label for="animation.stroke_linecap" class="form_label translate"
+                                        data-lang="lbl_animation_end">Animation Ends</label>
+                                    <div class="select-option">
+                                        <select id="animation.stroke_linecap" class="input_select line_preview">
+                                            <option value="butt" class="translate" data-lang="opt_animation_linecap_0">
+                                                rectangular ends trimmed at the endpoints
+                                            </option>
+                                            <option value="round" class="translate" data-lang="opt_animation_linecap_1">
+                                                rounded ends (beyond the endpoints)
+                                            </option>
+                                            <option value="square" class="translate"
+                                                data-lang="opt_animation_linecap_2">
+                                                square ends (beyond the endpoints)
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend><span class="translate" data-lang="lbl_settings_low_performance">Power-saving
+                                        mode for animations</span></legend>
+                                <div class="form_div textbox">
+                                    <input type="number" class="input_number line_preview"
+                                        id="animation.lowPerformance.duration" placeholder="" spellcheck="false"
+                                        autocomplete="off" min="1">
+                                    <label for="animation.lowPerformance.duration" class="form_label translate"
+                                        data-lang="lbl_duration_animation_low">Duration of the animation for low
+                                        Performance
+                                        (in ms)</label>
+                                </div>
+                                <div class="form_div textbox">
+                                    <input type="number" class="input_number line_preview"
+                                        id="animation.lowPerformance.frames" placeholder="" spellcheck="false"
+                                        autocomplete="off" min="1">
+                                    <label for="animation.lowPerformance.frames" class="form_label translate"
+                                        data-lang="lbl_duration_animation_frames">Frames per second (Default:
+                                        30)</label>
+                                </div>
+                            </fieldset>
                         </fieldset>
                     </div>
                     <div>
