@@ -49,6 +49,7 @@
     "ex_necessary_calc": "Notwendig für die Berechnung",
     "ex_no_ds_added": "Gehen Sie auf den Reiter Datenquellen und fügen Sie einige",
     "ex_no_help": "Zu diesem Element ist leider kein Hilfetext verfügbar!",
+    "ex_power_saving_mode": "Hinweis: Um den Energiesparmodus zu nutzen, aktivieren Sie ihn im Menüpunkt „Einstellungen“!",
     "ex_protected_warning": "Der Arbeitsbereich ist passwortgeschützt! Sie können Änderungen vornehmen, müssen beim Speichern jedoch das korrekte Passwort eingeben!",
     "ex_protected_ws": "Ihr Arbeitsbereich ist passwortgeschützt! Bitte geben Sie das Passwort ein, um die Konfiguration zu speichern!",
     "ex_protected_ws_tip": "Wenn Sie Ihren Arbeitsbereich mit einem Passwort schützen möchten, können Sie in den Adaptereinstellungen von ioBroker ein Passwort festlegen!",

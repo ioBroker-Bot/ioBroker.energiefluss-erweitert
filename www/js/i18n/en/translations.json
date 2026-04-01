@@ -49,6 +49,7 @@
     "ex_necessary_calc": "Necessary for calculation",
     "ex_no_ds_added": "Go to the tab Datasources and add some",
     "ex_no_help": "Unfortunately, no help text is available for this element!",
+    "ex_power_saving_mode": "<u>Note:</u>To use the Power-saving mode, activate it inside 'settings'-tab!",
     "ex_protected_warning": "The workspace is password protected! You can make changes, but you need to enter the correct password when saving!",
     "ex_protected_ws": "Your workspace is password protected! Please enter the password, to save the configuration!",
     "ex_protected_ws_tip": "If you want to password protect your workspace, you can set a password inside the adapter settings of ioBroker!",

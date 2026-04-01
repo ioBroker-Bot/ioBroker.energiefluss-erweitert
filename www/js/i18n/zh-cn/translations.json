@@ -49,6 +49,7 @@
     "ex_necessary_calc": "计算所需",
     "ex_no_ds_added": "转到“数据源”选项卡并添加一些",
     "ex_no_help": "不幸的是，这个元素没有可用的帮助文本！",
+    "ex_power_saving_mode": "<u>注意：</u>要使用省电模式，请在“设置”选项卡中激活它！",
     "ex_protected_warning": "工作区受密码保护！您可以进行更改，但保存时需要输入正确的密码！",
     "ex_protected_ws": "您的工作区受密码保护！请输入密码以保存配置！",
     "ex_protected_ws_tip": "如果您想用密码保护您的工作区，您可以在 ioBroker 的适配器设置中设置密码！",

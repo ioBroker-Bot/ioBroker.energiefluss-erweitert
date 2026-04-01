@@ -49,6 +49,7 @@
     "ex_necessary_calc": "Noodzakelijk voor berekening",
     "ex_no_ds_added": "Ga naar het tabblad Gegevensbronnen en voeg een aantal gegevens toe",
     "ex_no_help": "Helaas is er geen helptekst beschikbaar voor dit element!",
+    "ex_power_saving_mode": "<u>Opmerking:</u> Om de energiebesparende modus te gebruiken, activeer je deze in het tabblad 'Instellingen'!",
     "ex_protected_warning": "De werkruimte is met een wachtwoord beveiligd! U kunt wijzigingen aanbrengen, maar u moet bij het opslaan het juiste wachtwoord invoeren!",
     "ex_protected_ws": "Uw werkruimte is met een wachtwoord beveiligd! Voer het wachtwoord in om de configuratie op te slaan!",
     "ex_protected_ws_tip": "Als u uw werkruimte met een wachtwoord wilt beveiligen, kunt u een wachtwoord instellen in de adapterinstellingen van ioBroker!",

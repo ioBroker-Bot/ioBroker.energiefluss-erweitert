@@ -49,6 +49,7 @@
     "ex_necessary_calc": "Necessário para cálculo",
     "ex_no_ds_added": "Vá para a aba Fontes de dados e adicione algumas",
     "ex_no_help": "Infelizmente, não há texto de ajuda disponível para este elemento!",
+    "ex_power_saving_mode": "<u>Nota:</u>Para usar o modo de economia de energia, ative-o na aba 'configurações'!",
     "ex_protected_warning": "O espaço de trabalho é protegido por senha! Você pode fazer alterações, mas precisa digitar a senha correta ao salvar!",
     "ex_protected_ws": "Seu espaço de trabalho é protegido por senha! Por favor, insira a senha para salvar a configuração!",
     "ex_protected_ws_tip": "Se você quiser proteger seu espaço de trabalho com senha, você pode definir uma senha dentro das configurações do adaptador do ioBroker!",

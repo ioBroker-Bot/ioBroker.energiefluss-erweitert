@@ -49,6 +49,7 @@
     "ex_necessary_calc": "Nécessaire pour le calcul",
     "ex_no_ds_added": "Allez dans l'onglet Sources de données et ajoutez-en",
     "ex_no_help": "Malheureusement, aucun texte d'aide n'est disponible pour cet élément !",
+    "ex_power_saving_mode": "<u>Remarque :</u>Pour utiliser le mode d’économie d’énergie, activez-le dans l’onglet « Paramètres » !",
     "ex_protected_warning": "L'espace de travail est protégé par un mot de passe ! Vous pouvez y apporter des modifications, mais vous devrez saisir le mot de passe correct lors de l'enregistrement.",
     "ex_protected_ws": "Votre espace de travail est protégé par mot de passe ! Veuillez saisir ce mot de passe pour enregistrer la configuration !",
     "ex_protected_ws_tip": "Si vous souhaitez protéger votre espace de travail par mot de passe, vous pouvez définir un mot de passe dans les paramètres de l'adaptateur d'ioBroker !",

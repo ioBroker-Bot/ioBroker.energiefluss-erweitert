@@ -49,6 +49,7 @@
     "ex_necessary_calc": "Konieczne do obliczeń",
     "ex_no_ds_added": "Przejdź do zakładki Źródła danych i dodaj kilka",
     "ex_no_help": "Niestety, dla tego elementu nie jest dostępny tekst pomocy!",
+    "ex_power_saving_mode": "<u>Uwaga:</u>Aby skorzystać z trybu oszczędzania energii, należy go aktywować w zakładce „Ustawienia”!",
     "ex_protected_warning": "Obszar roboczy jest chroniony hasłem! Możesz wprowadzać zmiany, ale musisz podać prawidłowe hasło podczas zapisywania!",
     "ex_protected_ws": "Twoja przestrzeń robocza jest chroniona hasłem! Proszę wpisać hasło, aby zapisać konfigurację!",
     "ex_protected_ws_tip": "Jeśli chcesz zabezpieczyć hasłem swoją przestrzeń roboczą, możesz ustawić hasło w ustawieniach adaptera ioBroker!",

@@ -49,6 +49,7 @@
     "ex_necessary_calc": "Necessario per il calcolo",
     "ex_no_ds_added": "Vai alla scheda Origini dati e aggiungi alcuni",
     "ex_no_help": "Purtroppo non è disponibile alcun testo di aiuto per questo elemento!",
+    "ex_power_saving_mode": "<u>Nota:</u> Per utilizzare la modalità di risparmio energetico, attivala nella scheda 'Impostazioni'!",
     "ex_protected_warning": "L'area di lavoro è protetta da password! Puoi apportare modifiche, ma devi inserire la password corretta quando salvi!",
     "ex_protected_ws": "Il tuo spazio di lavoro è protetto da password! Inserisci la password per salvare la configurazione!",
     "ex_protected_ws_tip": "Se vuoi proteggere con una password il tuo spazio di lavoro, puoi impostare una password nelle impostazioni dell'adattatore di ioBroker!",
